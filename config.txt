@@ -1,0 +1,139 @@
+sudo mount -v vboxsf share /home/chy/share   共享文件夹
+sudo gedit /etc/fstab
+share /home/chy/share vboxsf  auto,rw,comment=systemd.automount 0 0
+$ 普通用户
+# 超级用户
+sudo su 切换超级用户
+whoami
+hostname
+exit
+date
+ls -a 全部文件 短参数  短参数可以合并写不用空格 区分大小写 ls -p 10
+ls --all 长参数 可以用空格不能合并写 ls --p=10
+tab键补全命令
+ctrl r 查找用过的命令
+history 命令
+ctrl l  = clear 清屏
+ctrl d 退出终端传递符
+shift paup 向上滚屏
+ctrl a 跳到光标源头 ctrl e
+ctrl u 删除光标左侧内容 ctrl k
+ctrl w 删除光标左侧一个单词
+ctrl y 粘贴删除的单词
+ctrl alt f3
+ctrl alt f4
+ctrl alt f5
+
+
+
+文件操作：linux 中有且只有一个根目录就是/斜杆  一切皆文件
+pwd 显示当前目录路径
+which 显示当前目录路径
+蓝色-目录
+绿色-可执行程序
+红色-压缩文件
+浅蓝色-链接文件
+灰色-其他文件
+ls --color=auto/none
+.开头文件是隐藏文件 一个.表示当前目录 ..表示上一级目录
+ls -l -h -t  详细信息 -i 
+ls -lath
+cd ~ 家目录
+du 统计文件大小 du -s -a -h -l
+cat  less 显示文件内容不能修改 less分页显示 more
+head tail 显示文件的开头和结尾
+head syslog -n 5
+tail syslog -f 追踪文件更新 ctrl c终止
+tail -f -s 4 syslog  4秒追踪
+touch 创建空白文件
+mkdir 创建文件夹
+mkdir -p one/two/three
+cp 拷贝  cp new_file new_file_copy  
+cp *.txt folder 把当前目录下的文本文件拷贝到folder目录中
+cp one one_copy -r
+mv 剪切
+rm 删除 -i -f -r  rmdir
+ln 创建链接  快捷方式  软链接 硬链接
+文件包含：文件名 文件内容 inode
+ln file1 file2 硬链接
+ln -s file1 file2 软链接
+sudo
+
+只有root才可以运行的命令
+adduser admin 添加用户
+passwd admin 修改密码
+deluser admin 删除用户
+deluser admin --remove-home
+addgroup friends 添加群组
+delgroup 删除群组
+usermod 修改用户账户 usermod -l   -g修改群组
+usermod -g friends admin
+groups admin 获取群组
+usermod -G -a friends,happy amdin 添加一个用户到多个群组 -a追加
+chown chy file.txt 修改文件所有者
+chgrp chy file.txt 修改文件群组
+chown -R chy:chy file.txt 
+修改访问权限 chmod
+- 普通文件
+d 目录
+l 链接
+r 读  4
+w 写  2
+x 执行  1
+
+  d     rwx        rwx       rwx
+目录   所有者    群组用户  其他用户
+chmod 600 file1
+
+u 所有者
+g 群组
+o 其他用户
+a 所有
++ 添加权限
+- 去除权限
+= 分配权限
+chmod u+rx file
+chmod g+r o-r file
+配合 -R递归修改权限
+
+
+文本编辑器：nano
+nano file.txt -m 激活鼠标  -i 激活自动缩进  -A 激活智能home
+nano .nanorc
+set mouse
+set autoindent
+set smarthome
+sudo nano /etc/nanorc
+source .bashrc 立即生效
+.deb
+软件仓库配置文件
+/etc/apt/source.list
+sudo nano /etc/apt/sources.list
+apt-get
+aptitude
+dpkg 是 apt-get 和 aptitude 这2个命令的后端命令
+sudo dpkg -i *.deb 安装本地软件包
+sudo dpkg -r 包名 卸载本地
+sudo apt-get install aptitude 安装软件包
+sudo apt-get update  更新
+sudo apt-cache search 搜索
+sudo apt-get autoremove 删除软件包
+sudo apt-get upgrade 升级软件包
+
+查询手册
+man ls
+apropos sound
+-h --help
+whatis ls
+locate new_file_copy
+sudo updatedb
+find 何处 何物 做什么
+find -name 'test_locate'
+find /var/log -name 'syslog*'
+find /var -size +10m 大于10m
+find -name "*.txt" -atime -7  近7天
+find -name 'file1' -type d    目录file1
+find -name "*.jpg" -print
+find -name "*.jpg" -printf "%p - %u\n"
+find -name "*.jpg" -delete
+find -name "*.jpg" -exec/-ok chmod 600 {} \;
