@@ -1,0 +1,73 @@
+vi /etc/sysconfig/network-scripts/ifcfg-enp0s3  网卡配置
+ip addr  查看ip地址
+/etc/init.d/network restart 重启网卡服务
+yum install 包
+yum update 包
+yum list 包
+yum remove 包
+
+yum -y install net-tools 网络管理工具
+yun list | grep ssh
+yum -y install openssh* 安装ssh
+
+
+ useradd imooc-user1  添加用户
+ passwd imooc-user1 添加密码
+ su - imooc-user1
+ exit 退出
+ yum -y install lrzsz   rz  sz
+
+ yum -y install gcc*
+ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-debel sqlite zlib readline openssl libffi libffi-devel
+
+ tar -xvf Python-3.7.6.tgz 解压
+ 安装目录python解压包
+./configure --prefix="/home/imooc-user1/python3" --with-ssl
+make
+make install
+cd
+vi .bashrc
+alias python3="/home/imooc-user1/python3/bin/python3"
+alias pip3="/home/imooc-user1/python3/bin/pip3"
+source .bashrc
+
+二、vm 编辑器
+yum -y install vim
+编辑模式
+输入模式
+末行模式
+i  光标前面
+a  光标后面
+o  下面一行
+I  行首
+A  行尾
+O  上面一行
+x  删除后面字符
+X  删除前面字符
+dd 删除一行
+4dd 删除4行
+p 粘贴 P
+yy 复制一行
+G行尾
+gg开头
+r 替换
+u 撤回
+.重复上一次操作
+v 选择
+/ 查找
+
+三安装图形界面
+yum -y groupinstall "X Window System"
+yum -y groupinstall "GNOME Desktop"
+systemctl set-default graphical.target
+reboot 重启
+
+vim /etc/yum.repos.d/mongo.repo
+yum -y install mongodb-org
+vim /etc/mongod.conf     0000
+systemctl enable mongod
+systemctl start mongod
+systemctl status mongod
+mongo
+
+四.爬虫基础知识

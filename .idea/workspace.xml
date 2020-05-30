@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa6ebbe-935d-4eed-a9e0-30164025b850" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/centos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestDemo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestDemo/handle session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestDemo/handle_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestDemo/handle_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestDemo/imooc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_link_layer/get_address_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_link_layer/get_address_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.pkt" beforeDir="false" afterPath="$PROJECT_DIR$/demo.pkt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network.txt" beforeDir="false" afterPath="$PROJECT_DIR$/network.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,47 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/network.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application_layer/handle_http_server_v2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_link_layer/chat_room/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_link_layer/chat_room/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,6 +46,10 @@
         <option value="$PROJECT_DIR$/handle_send_email.py" />
         <option value="$PROJECT_DIR$/network.txt" />
         <option value="$PROJECT_DIR$/data_link_layer/handle_send_email.py" />
+        <option value="$PROJECT_DIR$/centos.txt" />
+        <option value="$PROJECT_DIR$/requestDemo/handle_request.py" />
+        <option value="$PROJECT_DIR$/requestDemo/handle session.py" />
+        <option value="$PROJECT_DIR$/requestDemo/handle_proxy.py" />
       </list>
     </option>
   </component>
@@ -98,10 +65,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="570" />
-    <option name="y" value="182" />
-    <option name="width" value="1115" />
-    <option name="height" value="458" />
+    <option name="x" value="257" />
+    <option name="y" value="102" />
+    <option name="width" value="1205" />
+    <option name="height" value="469" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -111,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,20 +85,11 @@
               <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="application_layer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="data_link_layer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_address_info">
+  <component name="RunManager" selected="Python.handle_proxy">
     <configuration name="get_address_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_http_server_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="handle session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,12 +152,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application_layer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application_layer/handle_http_server_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestDemo/handle session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handle_proxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapyDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestDemo/handle_proxy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handle_request" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapyDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestDemo/handle_request.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,57 +232,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle.tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scrapyDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_link_layer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_link_layer/handle.tcp_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="handle_tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scrapyDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_link_layer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_link_layer/handle_tcp_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_proxy" />
+        <item itemvalue="Python.handle session" />
+        <item itemvalue="Python.handle_request" />
         <item itemvalue="Python.get_address_info" />
         <item itemvalue="Python.handle_send_email" />
-        <item itemvalue="Python.handle_http_server_v2" />
-        <item itemvalue="Python.handle.tcp_client" />
-        <item itemvalue="Python.handle_tcp_server" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +255,9 @@
       <workItem from="1590504719040" duration="2809000" />
       <workItem from="1590544587097" duration="9155000" />
       <workItem from="1590627274974" duration="626000" />
-      <workItem from="1590628008338" duration="21937000" />
+      <workItem from="1590628008338" duration="23172000" />
+      <workItem from="1590722379836" duration="16559000" />
+      <workItem from="1590802906685" duration="5772000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1590504746622</created>
@@ -307,22 +266,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590504746622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1590678176928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590678176928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34527000" />
+    <option name="totallyTimeSpent" value="58093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3385269" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8765432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,8 +316,11 @@
     <SUITE FILE_PATH="coverage/scrapyDemo$handle_tcp_client.coverage" NAME="handle.tcp_client Coverage Results" MODIFIED="1590653424352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer" />
     <SUITE FILE_PATH="coverage/scrapyDemo$handle_send_email.coverage" NAME="handle_send_email Coverage Results" MODIFIED="1590672234184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer" />
     <SUITE FILE_PATH="coverage/scrapyDemo$server.coverage" NAME="server Coverage Results" MODIFIED="1590651557692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer/chat_room" />
+    <SUITE FILE_PATH="coverage/scrapyDemo$handle_proxy.coverage" NAME="handle_proxy Coverage Results" MODIFIED="1590808682190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requestDemo" />
     <SUITE FILE_PATH="coverage/scrapyDemo$handle_udp_client.coverage" NAME="handle_udp_client Coverage Results" MODIFIED="1590650117393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer" />
     <SUITE FILE_PATH="coverage/scrapyDemo$get_address_info.coverage" NAME="get_address_info Coverage Results" MODIFIED="1590672389513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer" />
+    <SUITE FILE_PATH="coverage/scrapyDemo$handle_request.coverage" NAME="handle_request Coverage Results" MODIFIED="1590805446995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requestDemo" />
+    <SUITE FILE_PATH="coverage/scrapyDemo$handle_session.coverage" NAME="handle session Coverage Results" MODIFIED="1590806796026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requestDemo" />
     <SUITE FILE_PATH="coverage/scrapyDemo$handle_tcp_server.coverage" NAME="handle_tcp_server Coverage Results" MODIFIED="1590653414486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer" />
     <SUITE FILE_PATH="coverage/scrapyDemo$client.coverage" NAME="client Coverage Results" MODIFIED="1590651550697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_link_layer/chat_room" />
     <SUITE FILE_PATH="coverage/scrapyDemo$handle_http_server_v2.coverage" NAME="handle_http_server_v2 Coverage Results" MODIFIED="1590657450522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application_layer" />
@@ -453,8 +421,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="338">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="62" column="7" selection-start-line="62" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestDemo/imooc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestDemo/handle_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="59" column="149" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="149" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestDemo/handle session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestDemo/handle_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
