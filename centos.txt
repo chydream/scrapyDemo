@@ -71,3 +71,17 @@ systemctl status mongod
 mongo
 
 四.爬虫基础知识
+xpathh
+/  根路径
+// 相对路径
+//div[@class="ng"]   属性选择器
+.   当前节点
+.. 上一级节点
+//div[2]/text()  兄弟节点
+//*   所有元素
+//@*  所有带属性元素
+//div[contains(@class,"post")]
+//div/p[last()-1]
+//div/p[position()>1]
+//span[@class='source']/a/text()|//span[@class='time']/text()
+pip freeze
