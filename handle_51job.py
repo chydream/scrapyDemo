@@ -3,6 +3,7 @@ from lxml import etree
 import json
 import  pymongo
 
+
 myclient = pymongo.MongoClient("mongodb://127.0.0.1:27017")
 myclient.admin.authenticate("admin", "123456")
 mydb = myclient['db_51job']

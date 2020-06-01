@@ -137,3 +137,14 @@ find -name "*.jpg" -print
 find -name "*.jpg" -printf "%p - %u\n"
 find -name "*.jpg" -delete
 find -name "*.jpg" -exec/-ok chmod 600 {} \;
+
+
+在shell中使用chrome命令
+# 直接打开
+[ahcj@localhost ~]$ google-chrome baidu.com
+
+# 打开指定网址
+[ahcj@localhost ~]$ google-chrome baidu.com
+
+# 查看帮助
+[ahcj@localhost ~]$ google-chrome -h
