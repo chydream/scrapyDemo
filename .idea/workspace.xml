@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa6ebbe-935d-4eed-a9e0-30164025b850" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/centos.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,80 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/spiders/guazi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="853">
-              <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="72" selection-start-line="72" selection-end-line="74" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
-              <folding>
-                <element signature="e#169#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/handle_guazi_task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/handle_mongo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,7 +54,6 @@
         <option value="$PROJECT_DIR$/requestDemo/handle_request.py" />
         <option value="$PROJECT_DIR$/requestDemo/handle session.py" />
         <option value="$PROJECT_DIR$/requestDemo/handle_proxy.py" />
-        <option value="$PROJECT_DIR$/centos.txt" />
         <option value="$PROJECT_DIR$/imooc_bs4.py" />
         <option value="$PROJECT_DIR$/imooc_lxml.py" />
         <option value="$PROJECT_DIR$/study_pymongo.py" />
@@ -160,6 +86,7 @@
         <option value="$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/handle_mongo.py" />
         <option value="$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/pipelines.py" />
         <option value="$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/settings.py" />
+        <option value="$PROJECT_DIR$/centos.txt" />
       </list>
     </option>
   </component>
@@ -175,10 +102,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="506" />
-    <option name="y" value="590" />
+    <option name="x" value="11" />
+    <option name="y" value="492" />
     <option name="width" value="1099" />
-    <option name="height" value="655" />
+    <option name="height" value="570" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -194,28 +121,6 @@
             <path>
               <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="guazi_scrapy_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="guazi_scrapy_project" type="462c0819:PsiDirectoryNode" />
-              <item name="guazi_scrapy_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="tubatu_scrapy_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapyDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="tubatu_scrapy_project" type="462c0819:PsiDirectoryNode" />
-              <item name="tubatu_scrapy_project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,6 +337,7 @@
       <workItem from="1591528780320" duration="5280000" />
       <workItem from="1591575575969" duration="6800000" />
       <workItem from="1591583272928" duration="22672000" />
+      <workItem from="1591665513153" duration="7219000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1590504746622</created>
@@ -479,12 +385,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139298000" />
+    <option name="totallyTimeSpent" value="146517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15214477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -684,20 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="148" column="6" lean-forward="true" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_crawl_job/handle_51job.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408">
@@ -752,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centos.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tubatu_scrapy_project/tubatu_scrapy_project/spiders/tubatu1.py" />
     <entry file="file://$PROJECT_DIR$/study_crawl_job/handle_mongo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,26 +669,9 @@
     <entry file="file://$PROJECT_DIR$/tubatu_scrapy_project/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project1/guazi_scrapy_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project1/guazi_scrapy_project/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project1/guazi_scrapy_project/spiders/guazi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project1/guazi_scrapy_project/settings.py" />
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project1/guazi_scrapy_project/items.py" />
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project1/guazi_scrapy_project/spiders/guazi.py" />
     <entry file="file://$PROJECT_DIR$/tubatu_scrapy_project/config.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -828,9 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tubatu_scrapy_project/tubatu_scrapy_project/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -865,29 +731,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
-          <folding>
-            <element signature="e#169#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="1368">
           <caret line="72" selection-start-line="72" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/spiders/guazi.py">
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        <state relative-caret-position="2394">
+          <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#169#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -899,10 +755,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="148" column="6" lean-forward="true" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/handle_guazi_task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="1064">
+          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -911,15 +788,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/handle_mongo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/centos.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="566">
+          <caret line="87" column="19" selection-start-line="87" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guazi_scrapy_project/guazi_scrapy_project/spiders/guazi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1739">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

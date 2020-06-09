@@ -62,12 +62,7 @@ yum -y groupinstall "GNOME Desktop"
 systemctl set-default graphical.target
 reboot 重启
 
-vim /etc/yum.repos.d/mongo.repo
-yum -y install mongodb-org
-vim /etc/mongod.conf     0000
-systemctl enable mongod
-systemctl start mongod
-systemctl status mongod
+mongod --dbpath data/ --logpath log/mongo.log --port 27017 --fork
 mongo
 
 四.爬虫基础知识
@@ -85,3 +80,9 @@ xpathh
 //div/p[position()>1]
 //span[@class='source']/a/text()|//span[@class='time']/text()
 pip freeze
+
+
+crontab -e 定时任务
+nohup ./start_guazi_project.sh guazi & 启动shell脚本
+tail -f nohup.out 查看日志
+ps -ef | grep guazi 查看进程
